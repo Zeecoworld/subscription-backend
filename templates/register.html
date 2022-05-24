@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<div id="app">
+        
+    <section class="page-content">
+        <!--Start Page Heading--
+        <div class="page-heading page-heading-bg ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="title">Sign Up</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Page Heading-->
+
+        <!--Start Contact Area-->
+        <div class="contact-wrap">
+            <!--Start Container-->
+            <div class="container">
+                <!--Start Row-->
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <!--Start Contact Form-->
+                        <div class="contact-form">
+                            <!--Start Section Heading-->
+                            <div class="section-heading text-center">
+                                <h2 class="title">Sign up Here</h2>
+                            </div>
+
+                                                        <!--End Section Heading-->
+                            <form action="" method="post" class="contact-form">
+                               {% csrf_token %} 
+                                    {% for key,value in form.errors.items %} 
+                                            {% for error in value %}
+                                                <div class=".alert-danger" role="alert">
+                                                    {{error}}
+                                                </div>
+                                            {% endfor %}
+                                    {% endfor %}                                            
+                                            
+                                <div class="form-group">
+                                    {{form.first_name}}
+                                    {% comment %} <input type="text" class="form-control" name="name" value="" placeholder="Enter First Name" required/> {% endcomment %}
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    {{form.last_name}}
+                                    {% comment %} <input type="text" class="form-control" name="name" value="" placeholder="Enter Last Name" required/> {% endcomment %}
+                                </div>
+
+                                <div class="form-group">
+                                    {{form.username}}
+                                    {% comment %} <input type="text" class="form-control" name="username" value="" placeholder="Enter Your Username" required/> {% endcomment %}
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    {{form.email}}
+                                    {% comment %} <input type="email" class="form-control" name="email"  value=""  placeholder="Enter Your E-mail" required/> {% endcomment %}
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    {{form.wallet_address}}
+                                    {% comment %} <input type="text" class="form-control" name="name" value="" placeholder="Enter Your Wallet Address" required/> {% endcomment %}
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    {{form.password1}}
+                                    {% comment %} <input type="password" class="form-control" name="password" placeholder="Enter Your Password" required/> {% endcomment %}
+                                </div><!-- /.form-group -->
+
+                                <div class="form-group">
+                                    {{form.password2}}
+                                    {% comment %} <input type="password" class="form-control" name="password_confirmation" id="InputRetypepassword" placeholder="Re-type Password"  required> {% endcomment %}
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="contact-frm-btn text-center">
+                                            <button type="submit" class="cont-btn btn-block" style="width: 100%">Sign Up Now</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-right"><br>
+                                        <a href="{% url 'login' %}">Member? Login Here!</a>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <!--End Contact Form-->
+                    </div>
+                </div>
+                <!--End Row-->
+            </div>
+            <!--End Container-->
+        </div>
+        <!--End Contact Area-->
+    </section>
+
+</div>
+
+{% endblock content %}

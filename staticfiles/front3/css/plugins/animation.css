@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+<meta name="make money online in nigeria, Matrix finace" content="">
+<meta name="description" content="">
+<meta name="csrf-token" content="v8L35R47Ww3ytT1d8SOb03iibPY7f0PnKdkKOO13">
+<title> Matrix Technology | Home</title>
+
+<!--Ads Script-->
+<script>(function(d,z,s){s.src=&#039;//&#039;+d+&#039;/401/&#039;+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})(&#039;eehuzaih.com&#039;,5049734,document.createElement(&#039;script&#039;))</script>
+<script async="async" data-cfasync="false" src="//upgulpinon.com/1?z=5049730"></script>
+
+<!--Favicon-->
+<link rel="shortcut icon" href="https://matrix.com.ng/assets/images/logo/favicon.png" type="image/x-icon">
+<!--Bootstrap Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/bootstrap.css">
+<!--Bootstrap Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/plugin/bootstrap.min.css">
+<!--Owl Carousel Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/owl.carousel.min.css">
+<!--Magnific PopUp Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/magnific-popup.css">
+<!-- fontawesome icon  -->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/admin/css/font-awesome.min.css">
+<!--Animate Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/icofont.css">
+
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/animate.css">
+<!--Menu Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/menu.css">
+<!--Main Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/style.css">
+<!--Main Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/styles.css">
+<!--Responsive Stylesheet-->
+<link rel="stylesheet" type="text/css" href="https://matrix.com.ng/assets/front3/css/responsive.css">
+
+<link rel="stylesheet" href="https://matrix.com.ng/assets/admin/css/sweetalert.css">
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!--Modanizr JS-->
+<script src="https://matrix.com.ng/assets/front3/js/modernizr.custom.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://matrix.com.ng/assets/front3/css/color.php?color=0080ff&color2=dd0ca6">
+<style>
+   @import  url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --orange:#ff7800;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.2rem solid rgba(0,0,0,.1);
+    --outline:.1rem solid rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.btn{
+    /*margin-top: 1rem;*/
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    border:.2rem solid var(--black);
+    color:var(--black);
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover{
+    background: var(--orange);
+    color:#fff;
+}
+
+.header{
+    position: fixed;
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .navbarh11 a{
+    font-size: 1.7rem;
+    margin:0 1rem;
+    color:var(--black);
+}
+
+.header .navbarh11 a:hover{
+    color:var(--orange);
+}
+
+.header .icons121 div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header .icons121 div:hover{
+    background: var(--orange);
+    color:#fff;
+}
+
+#menu-btnn{
+    display: none;
+}
+.hidd {
+            display: none;
+        }
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btnn{
+        display: inline-block;
+    }
+
+    .header .search-form{
+        width:90%;
+    }
+
+    .header .navbarh11{
+        position: absolute;
+        top:110%; right:-110%;
+        width:30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+
+    .header .navbarh11.active{
+        right:2rem;
+        transition: .4s linear;
+    }
+
+    .header .navbarh11 a{
+        font-size: 2rem;
+        margin:2rem 2.5rem;
+        display: block;
+    }
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 2.5rem;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer .box-container .box .payment-img{
+        margin: 2rem auto;
+    }
+
+}
+</style>
+</head>
+<meta name="propeller" content="1ecf1abf8334040560098a31f6fe30f3">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9167826274487307"
+     crossorigin="anonymous"></script>
+   <script src="https://tobaltoyon.com/pfe/current/tag.min.js?z=5047899" data-cfasync="false" async></script>
+<body>
+<!--Start Preloader-->
+
+<header class="header">
+
+    <a class="navbar-brande3e" href="https://matrix.com.ng"><img style="max-width: 160px;" src="https://matrix.com.ng/assets/images/logo/logo.png" class="logo-h" alt=""></a>
+
+    <nav class="navbarh11">
+        <a  href="#home" >Home</a>
+         <a  href="https://matrix.com.ng/login">Login</a>
+        <a  href="#about" >How its Work</a>
+        <a  href="https://www.facebook.com/groups/355063459767477" >Facebook Group</a>
+                <a  href="#faq" >FAQ</a>
+        <a  href="https://matrix.com.ng/vendors">Purchase Activation Code</a>
+         <a  href="https://matrix.com.ng">Coupon Checker</a>
+       
+    </nav>
+
+    <div class="icons121">
+        <div class="fas fa-bars" id="menu-btnn"></div>
+        <div class="fas hidd fa-search" id="search-btn"></div>
+        <div class="fas hidd fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas hidd fa-user" id="login-btn"></div>
+                <a href="/login" class="btn">Sign In</a>
+            </div>
+
+    
+    </div>
+
+
+</header>
+<br>
+<br>
+<br />
+
+<!--End Preloader-->
+
+<!--Start Body Wrap-->
+
+
+    <div id="app">
+        
+        <style>
+            /*.proo {*/
+            /*    border-radius: 4px;*/
+            /*    top: 0;*/
+            /*    position: relative;*/
+            /*    height: 50px;*/
+            /*    margin-left: 10px;*/
+            /*    background: #252525;*/
+            /*    padding: 16px 20px;*/
+            /*    color: #ffffff !important;*/
+            /*    margin-left: -330px !important;*/
+            /*    font-weight:600;*/
+            /*    text-transform:uppercase;*/
+            /*}*/
+            /*.b-22{*/
+            /*    margin-bottom:50px;*/
+            /*}*/
+            
+            @media  only screen and (max-width: 600px) {
+                /*.proo {*/
+                /*    margin-left: -160px !important;*/
+                /*}*/
+                .hero_search-2{
+                    margin-top: 60px;
+                    margin-bottom: 80px!important;
+                }
+        </style>
+        
+        
+        
+        
+        <div class="hero_banner image-cover" style="background:#1e03b9 url(https://matrix.com.ng/assets/images/banner.png) no-repeat;" data-overlay="5" id="home">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-7 col-md-8 col-sm-12">
+							<div class="simple-search-wrap text-left">
+								<div class="hero_search-2">
+									<div class="elsio_tag">Welcome Home</div>
+									<h1 class="banner_title mb-4">Get Ready To Become Financially Free</h1>
+									<p class="font-lg mb-4 b-22">Matrix Technology is a Newly Launch Charity and Investment Company Having A vision to allow Ordinary People To make Money from the comfort of there Home without Referring. We are an international company engaged in activities related to cryptocurrency exchanges performed by qualified professional traders.</p>
+									<div class="input-group simple_search">
+									<div class="btn-22">
+									    									    <a href="https://matrix.com.ng/register" class="proo add-listing theme-bg"> Get Started</a>
+									    								    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ============================ Hero Banner End ================================== -->
+			
+			<!-- ================================ Tag Award ================================ -->
+			<section class="p-0">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="crp_box fl_color ovr_top">
+								<div class="row align-items-center">
+								    
+								    
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+										<div class="dro_140">
+											<div class="dro_141 de"><i class="fa fa-users"></i></div>
+											<div class="dro_142">
+												<h5>Unlimited</h5>
+												<p>Users</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+										<div class="dro_140">
+											<div class="dro_141 de"><i class="fa fa-money"></i></div>
+											<div class="dro_142">
+												<h6>$10K+</h6>
+												<p>Deposit</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+										<div class="dro_140">
+											<div class="dro_141 de"><i class="fa fa-download"></i></div>
+											<div class="dro_142">
+												<h6>$38K+</h6>
+												<p>Withdraw</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+			</section>
+			<!-- ================================ Tag Award ================================ -->
+			
+			<!-- ============================ Top Categories Start ================================== -->
+			
+					
+			<!-- ============================ Top Categories End ================================== -->
+			
+			<!-- ============================ How It Works Start ================================== -->
+			<section class="pt-0 gray" id="service">
+				<div class="container">	
+					<div class="row justify-content-center">
+						<div class="col-lg-7 col-md-8">
+							<div class="sec-heading center">
+								<h2>How It<span class="theme-cl"> Works</span></h2>
+							</div>	
+									
+						</div>
+					</div>			
+					<div class="row align-items-center justify-content-between">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+							<div class="side_block extream_img">
+								<div class="list_crs_img">
+									<img src="http://test.potholefinder.com.ng/assets/img/at-1.png" class="img-fluid elsio cirl animate-fl-y" alt="" />
+									<img src="http://test.potholefinder.com.ng/assets/img/at-3.png" class="img-fluid elsio arrow animate-fl-x" alt="" />
+									<img src="http://test.potholefinder.com.ng/assets/img/at-2.png" class="img-fluid elsio moon animate-fl-x" alt="" />
+								</div>
+								<img src="http://test.potholefinder.com.ng/assets/img/st-2.png" class="img-fluid" alt="" />
+							</div>
+						</div>
+						<div class="col-xl-5 col-lg-5 col-md-6 col-sm-12">
+							<div class="lmp_caption">
+								<ol class="list-unstyled p-0">
+    								    								  <li class="d-flex align-items-start my-3 my-md-4">
+    									<div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg">
+    									  <div class="position-absolute text-white h5 mb-0"><i class="fa fa-credit-card"></i></div>
+    									</div>
+    									<div class="ml-3 ml-md-4">
+    									  <h4>Fund Your Wallet</h4>
+    									  <p>
+    										We use a very easy way as our  deposit method that let&#039;s you deposit your money without any hassle.
+    									  </p>
+    									</div>
+    								  </li>
+    								    								  <li class="d-flex align-items-start my-3 my-md-4">
+    									<div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg">
+    									  <div class="position-absolute text-white h5 mb-0"><i class="fa fa-university"></i></div>
+    									</div>
+    									<div class="ml-3 ml-md-4">
+    									  <h4>Utilize Money</h4>
+    									  <p>
+    										We have a group of skilled and professionals traders working all the time utilizing your money in the trading and cryptocurrency market.
+    									  </p>
+    									</div>
+    								  </li>
+    								    								  <li class="d-flex align-items-start my-3 my-md-4">
+    									<div class="rounded-circle p-3 p-sm-4 d-flex align-items-center justify-content-center theme-bg">
+    									  <div class="position-absolute text-white h5 mb-0"><i class="fa fa-money"></i></div>
+    									</div>
+    									<div class="ml-3 ml-md-4">
+    									  <h4>Give Interest</h4>
+    									  <p>
+    										We utilize your money and offer you the highest interest value providing a high income source.
+    									  </p>
+    									</div>
+    								  </li>
+    																</ol>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			
+			<div class="clearfix"></div>
+			<!-- ============================ How It Works End ================================== -->
+			        <!--Start Why Choose Area-->
+        <section class="why-choose-area" id="about">
+            <!--Start Container-->
+            <div class="container">
+                <!--Start Row-->
+                <div class="row">
+                    <!--Start Col-7-->
+                    <div class="col-md-12">
+                        <div class="why-choose-content text-center">
+                            
+                            <h2>About<span class="theme-cl"> Us</span></h2>
+                            <p>We are an international company engaged in activities related to cryptocurrency exchanges performed by qualified professional traders.</p>
+
+                        </div>
+                    </div>
+                    <!--End Col-7-->
+
+                </div>
+                <!--End Row-->
+            </div>
+            <!--End Container-->
+        </section>
+        <!--End Why Choose Area--><hr>
+			<!-- ============================ Latest Coupons Start ================================== -->
+			<section class="min">
+				<div class="container" id="features">
+					
+            <!-- ============================ Top/featured deals/ Products ================================== -->
+
+                <section class="min">
+				<div class="container">
+					
+					<div class="row justify-content-center">
+						<div class="col-lg-7 col-md-8">
+							<div class="sec-heading center">
+								<h2>Our<span class="theme-cl"> Features</span></h2>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="row justify-content-center">
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-fa-address-card"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>EASY WITHDRAWAL AND FAST PAYMENT</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">Enjoy the fastest payment with swift withdrawal</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-lock"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>Secure</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">We constantly work on improving our system and level of our security to minimize any potential risks.</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-bars"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>Profitable</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">We will utilize your money which will be performed by qualified professional traders and provide a high income.</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-bitcoin"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>MULTIPLE WAYS OF EARNING</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">Matrix finance gives you unlimited chances of earning s</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-life-ring"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>Support</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">We provide 24/7 customer customer support. We are here to offer you the best support.</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<!--<div class="prd_label new">New</div>-->
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-globe"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>NO REFERRAL NEEDED</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc"><span class="old_prc">Just perform simple tasks and activities on your account</span></h5>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+											<a class="bth bth_prd"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Single Item -->
+											
+						
+					</div>
+				
+				</div>
+			</section>
+			
+	
+			<!-- ============================ Top Products ================================== -->
+					
+				</div>
+			</section>
+			<!-- ============================ Latest Coupons End ================================== -->
+
+		
+			
+			<!-- ============================ Top Stores ================================== -->
+			<section class="gray">
+				<div class="container">
+				
+				    <section class="min">
+				<div class="container" id="plan">
+					
+					<div class="row justify-content-center">
+						<div class="col-lg-7 col-md-8">
+							<div class="sec-heading center">
+								<h2>Our <span class="theme-cl">Plans</span></h2>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="row justify-content-center">
+										    						<!-- Single Item -->
+						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+							<div class="prd_grid_box">
+								<div class="prd_label new">  ₦16.7  / Hour</div>
+								<div class="shd_142">
+									<div class="prt_saveed_12lk">
+										<label class="toggler toggler-danger"><input type="checkbox"><i class="fas fa-heart"></i></label>
+									</div>
+								</div>
+								<div class="prd_grid_thumb">
+									<a href="#"><img src="assets/img/app.png" class="img-fluid" width="50" alt=""></a>
+								</div>
+								<div class="prd_grid_caption">
+									<div class="prd_center_capt">
+										
+										<div class="prd_title"><h4>VIP</h4></div>
+										<div class="prd_price_info">
+											<h5 class="org_prc">Features</h5><hr>
+											                                                <h5 class="org_prc">Amount: ₦ 3000</h5><hr>
+                                                                                        
+                                                                                            <h5 class="org_prc"> <span class="label label-warning">Capital Will Store</span></h5><hr>
+                                                                                        <h5 class="org_prc"><span class="old_prc">Validity:  720 Hour </span></h5><hr>
+											<h5 class="org_prc"><span class="old_prc">24/7Support</span></h5><hr>
+										</div>
+									</div>
+									<div class="prd_bot_capt">
+										<div class="prd_button">
+										    											<a href="https://matrix.com.ng/register" class="bth bth_prd">Subscribe</a>
+																					</div>
+									</div>
+								</div>
+							</div>
+						</div>
+										</div>
+				</div>
+			</section>
+					
+				</div>
+			</section>
+			<!-- ============================ Top Stores End ================================== -->
+
+
+						<!-- ============================ All Category Detail ================================== -->
+						<section>
+							<div class="container" id="faq">
+								<div class="row justify-content-center">
+									<div class="col-lg-7 col-md-8">
+										<div class="sec-heading center">
+											<h2>Frequently <span class="theme-cl">Asked Questions</span></h2>
+										</div>	
+												
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									 	
+    									<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+    										<div class="cates_crs_wrip">
+    											<div class="crs_trios">
+    												<div class="crs_cate_icon"><img src="https://www.pinclipart.com/picdir/middle/523-5234419_question-mark-clip-art-clipart-question-mark-transparent.png" width="50" alt=""></div>
+    												<!--<div class="crs_cate_link"><a href="#">View Details</a></div>-->
+    											</div>
+    											<div class="crs_capt_cat">
+    												<h4>Q.1: What is Epin ?</h4>
+    												<p>Coupon code serves as a quick payment option on our platform or PIN used for registration payment which can be purchased from our verified vendors on the website.</p>
+    											</div>
+    										</div>
+    									</div>
+										
+    									<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+    										<div class="cates_crs_wrip">
+    											<div class="crs_trios">
+    												<div class="crs_cate_icon"><img src="https://www.pinclipart.com/picdir/middle/523-5234419_question-mark-clip-art-clipart-question-mark-transparent.png" width="50" alt=""></div>
+    												<!--<div class="crs_cate_link"><a href="#">View Details</a></div>-->
+    											</div>
+    											<div class="crs_capt_cat">
+    												<h4>Q.2: I forgot my password, what should I do</h4>
+    												<p>Visit the password reset page, type in your email address and click the `Reset` button. Visit the password reset page, type in your email address and click the `Reset` button.</p>
+    											</div>
+    										</div>
+    									</div>
+										
+    									<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+    										<div class="cates_crs_wrip">
+    											<div class="crs_trios">
+    												<div class="crs_cate_icon"><img src="https://www.pinclipart.com/picdir/middle/523-5234419_question-mark-clip-art-clipart-question-mark-transparent.png" width="50" alt=""></div>
+    												<!--<div class="crs_cate_link"><a href="#">View Details</a></div>-->
+    											</div>
+    											<div class="crs_capt_cat">
+    												<h4>Q.3: What is Referral Commission ?</h4>
+    												<p>Direct Earnings are based on the 40% (1000) Referral commission you earn when you refer new users to our Company. Indirect earnings are based on 5% referral commission you earn when your downlines refer. These sum up to a whopping referral commission of 45%</p>
+    											</div>
+    										</div>
+    									</div>
+										
+    									<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+    										<div class="cates_crs_wrip">
+    											<div class="crs_trios">
+    												<div class="crs_cate_icon"><img src="https://www.pinclipart.com/picdir/middle/523-5234419_question-mark-clip-art-clipart-question-mark-transparent.png" width="50" alt=""></div>
+    												<!--<div class="crs_cate_link"><a href="#">View Details</a></div>-->
+    											</div>
+    											<div class="crs_capt_cat">
+    												<h4>Q.4: What is Mat-finance?</h4>
+    												<p>Mat- finance is A Nigeria website that Allow ordinary people to make money from the Comfort of there home</p>
+    											</div>
+    										</div>
+    									</div>
+																	</div>
+							</div>
+						</section>
+						<!-- ============================ All category Detail ================================== -->
+			
+			<!-- ============================ Deals Start ================================== -->
+			
+			<!-- ============================ Deals End ================================== -->
+			
+			<!-- ============================ Call To Action ================================== -->
+			<section class="theme-bg call_action_wrap-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							
+							<div class="call_action_wrap">
+								<div class="call_action_wrap-head">
+									<h3>Do You Have Questions ?</h3>
+									<span>We'll help you to grow your career and growth.</span>
+								</div>
+								<a href="#" class="btn btn-call_action_wrap">Contact Us Today</a>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================ Call To Action End ================================== -->
+			
+			<!-- ============================ Footer End ================================== -->
+			
+			<!-- Log In Modal -->
+			<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
+				<div class="modal-dialog modal-xl login-pop-form" role="document">
+					<div class="modal-content overli" id="loginmodal">
+						<div class="modal-header">
+							<h5 class="modal-title">Login Your Account</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true"><i class="fas fa-times-circle"></i></span>
+							</button>
+						  </div>
+						<div class="modal-body">
+							<div class="login-form">
+								<form>
+								
+									<div class="form-group">
+										<label>User Name</label>
+										<div class="input-with-icon">
+											<input type="text" class="form-control" placeholder="User or email">
+											<i class="ti-user"></i>
+										</div>
+									</div>
+									
+									<div class="form-group">
+										<label>Password</label>
+										<div class="input-with-icon">
+											<input type="password" class="form-control" placeholder="*******">
+											<i class="ti-unlock"></i>
+										</div>
+									</div>
+									
+									
+									<div class="form-group">
+										<button type="submit" class="btn btn-md full-width theme-bg text-white">Login</button>
+									</div>
+									
+									<div class="rcs_log_125 pt-2 pb-3">
+										<span>Or Login with Social Info</span>
+									</div>
+									<div class="rcs_log_126 full">
+										<ul class="social_log_45 row">
+											<li class="col-xl-4 col-lg-4 col-md-4 col-4"><a href="javascript:void(0);" class="sl_btn"><i class="ti-facebook text-info"></i>Facebook</a></li>
+											<li class="col-xl-4 col-lg-4 col-md-4 col-4"><a href="javascript:void(0);" class="sl_btn"><i class="ti-google text-danger"></i>Google</a></li>
+											<li class="col-xl-4 col-lg-4 col-md-4 col-4"><a href="javascript:void(0);" class="sl_btn"><i class="ti-twitter theme-cl"></i>Twitter</a></li>
+										</ul>
+									</div>
+								
+								</form>
+							</div>
+						</div>
+						<div class="crs_log__footer d-flex justify-content-between mt-0">
+							<div class="fhg_45"><p class="musrt">Don't have account? <a href="#" class="theme-cl">SignUp</a></p></div>
+							<div class="fhg_45"><p class="musrt"><a href="#" class="text-danger">Forgot Password?</a></p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Modal -->
+
+
+  
+
+
+    </div>
+
+    <!--Start Footer-->
+    <footer class="dark-footer skin-dark-footer style-2">
+				<div class="footer-middle">
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-lg-5 col-md-5">
+								<div class="footer_widget">
+									<img src="https://matrix.com.ng/assets/images/logo/logo.png" class="img-footer small mb-2" alt="" />
+									<h4 class="extream mb-3">Do you need help with<br>anything?</h4>
+									<p>Receive updates, hot deals, coupons, discounts sent straignt in your inbox every month</p>
+									<div class="foot-news-last">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="Email Address">
+											<div class="input-group-append">
+												<button type="button" class="input-group-text theme-bg b-0 text-light">Subscribe</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-md-7 ml-auto">
+								<div class="row">
+								
+									<div class="col-lg-4 col-md-4">
+										<div class="footer_widget">
+											<h4 class="widget_title">Resources</h4>
+											<ul class="footer-menu">
+												<li><a href="referral.php">Refer & Earn</a></li>
+												<li><a href="page/">Help</a></li>
+												<li><a href="page/advertise.php">Advertising</a></li>
+												<li><a href="page/partner.php">Partnership</a></li>
+												<li><a href="page/contact.php">Contact</a></li>
+												
+											</ul>
+										</div>
+									</div>
+											
+									<div class="col-lg-4 col-md-4">
+										<div class="footer_widget">
+											<h4 class="widget_title">Support</h4>
+											<ul class="footer-menu">
+												<li><a href="#">Live Chat<span class="new">New</span></a></li>
+												
+											</ul>
+										</div>
+									</div>
+							
+									<div class="col-lg-4 col-md-4">
+										<div class="footer_widget">
+											<h4 class="widget_title">Company</h4>
+											<ul class="footer-menu">
+												<li><a href="page/about.php">About Us</a></li>
+												<li><a href="blog">Blog</a></li>
+												<li><a href="page/history">History</a></li>
+												<li><a href="page/policy.php">Terms</a></li>
+												<li><a href="page/policy.php">Privacy Policy</a></li>
+												
+											</ul>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-lg-12 col-md-12 text-center">
+								<p class="mb-0">© 2022 <a href="https://matrix.com.ng">Matrix Technology.</a> Made With <i class="fas fa-heart"></i></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+    <!--End Footer-->
+    <!--Start ClickToTop-->
+    <div class="click-top">
+        <a href="#top"><i class="icofont icofont-simple-up"></i></a>
+    </div>
+    <!--End ClickToTop-->
+</div>
+<!--End Body Wrap-->
+
+<!--jQuery JS-->
+<script src="https://matrix.com.ng/assets/front3/js/jquery.min.js"></script>
+<!--Counter JS-->
+<script src="https://matrix.com.ng/assets/front3/js/waypoints.js"></script>
+
+<script src="https://matrix.com.ng/assets/front3/js/jquery.counterup.min.js"></script>
+<!--Bootstrap JS-->
+<script src="https://matrix.com.ng/assets/front3/js/bootstrap.min.js"></script>
+<!--Magnic PopUp JS-->
+<script src="https://matrix.com.ng/assets/front3/js/magnific-popup.min.js"></script>
+<!--Isotope JS-->
+<script src="https://matrix.com.ng/assets/front3/js/isotope.min.js"></script>
+<!--Image Loded JS-->
+<script src="https://matrix.com.ng/assets/front3/js/images-loded.min.js"></script>
+<!--Owl Carousel JS-->
+<script src="https://matrix.com.ng/assets/front3/js/owl.carousel.min.js"></script>
+<!--Menu JS-->
+<script src="https://matrix.com.ng/assets/front3/js/menu.js"></script>
+
+<script src="https://matrix.com.ng/assets/admin/js/sweetalert.js"></script>
+<!--Main-->
+<script src="https://matrix.com.ng/assets/front3/js/custom.js"></script>
+
+
+<script>
+    $(document).on('change', '#langSel', function () {
+        var code = $(this).val();
+        window.location.href = "https://matrix.com.ng/change-lang/"+code ;
+    });
+</script>
+
+<script type="text/javascript">
+    $('.newsletter-form').submit(function(e){
+        e.preventDefault();
+        data = $(this).serialize();
+        $.post('https://matrix.com.ng/subscriber', data, function(response){
+            if (response.success == true){
+                swal(response.message,"", "success");
+                app.newdata.subscribe_email = '';
+            }else {
+                swal(response.message,"", "warning");
+            }
+        });
+    });
+</script>
+<script>
+    let navbar = document.querySelector('.navbarh11');
+
+    document.querySelector('#menu-btnn').onclick = () =>{
+        navbar.classList.toggle('active');
+        searchForm.classList.remove('active');
+        cartItem.classList.remove('active');
+    }
+    
+    
+    window.onscroll = () =>{
+        navbar.classList.remove('active');
+        searchForm.classList.remove('active');
+        cartItem.classList.remove('active');
+    }
+</script>
+<script>
+    window.Laravel = {"csrfToken":"v8L35R47Ww3ytT1d8SOb03iibPY7f0PnKdkKOO13"};
+    </script>
+
+
+    <script>
+        $(document).ready(function(){
+            var winheight = $(window).height() -150;
+            $('#justify-height').css('min-height',winheight+'px');
+        });
+    </script>
+
+    
+    
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/626300fd7b967b11798c0d5d/1g19bno8i';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+
+</html>

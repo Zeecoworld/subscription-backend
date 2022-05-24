@@ -1,0 +1,100 @@
+
+.header-top-right ul li a:hover,
+.slide-item .btn-base .btn1:hover,
+.slide-item .btn-base .btn2,
+.single-how-we-build-2 .icon,
+.single-service-box-2 .icon,
+.why-choose-area .subtitle,
+.section-heading .subtitle,
+.footer-nav li a:hover,
+.post-title > a:hover, .post-meta > span a:hover,
+.post-content > a:hover,
+.recent-post-item .content .title a:hover,
+.single-how-we-build-3 .icon,
+.we-build-area .single-how-we-build .thumb .icon,
+.we-build-area .single-how-we-build:hover .content .title{
+color: #0080ff;
+}
+
+.slide-item .btn-base .btn1,
+
+.search-widget.widget .form-element .submit-btn,
+.slide-item .btn-base .btn2{
+border: 2px solid #0080ff;
+}
+
+.pranto-border{
+border: 1px solid #0080ff;
+}
+
+
+.btn-base a,
+.bg-main-color,
+.contact-frm-btn a,
+.team-member-social ul li a:hover,
+.footer .footer-top h3:after,
+.footer-social li a:hover,
+.contact-frm-btn button,
+.click-top a,
+.we-build-area .single-how-we-build:hover .thumb .icon,
+.search-widget.widget .form-element .submit-btn,
+.blog-pagination .pagination li a:hover,
+.btn-primary,
+.btn-success,
+.slide-item .btn-base .btn2:hover,
+.panel-primary > .panel-heading,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.site-preloader{
+background-color: #0080ff;
+}
+
+.colored-text{
+color: #0080ff;
+}
+
+.newsletter-form button {
+    background: #0080ff;
+}
+
+
+.call-to-action .btn-base .boxed-btn,
+.click-top a:hover,
+
+.contact-frm-btn button:hover, .contact-frm-btn a:hover{
+background-color: #dd0ca6;
+}
+
+.call-to-action .btn-base a:hover{
+background-color: rgba(221,12,166,0.8);
+}
+
+.footer-social li a:hover,
+.blog-pagination .pagination li a:hover,
+.btn-primary,
+.panel-primary,
+.slide-item .btn-base .btn2:hover,
+.btn-success,
+.panel-primary > .panel-heading,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.form-control:focus{
+border-color: #0080ff;
+}
+
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover, .side .widget ul.link li a:hover, .side .widget ul.link li a:focus, .check-list li:before, ul.cart-list > li > h6 > a, .attr-nav > ul > li > a:hover, .attr-nav > ul > li > a:focus, nav.navbar-sidebar ul.nav li.dropdown.on > a, nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title, nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover, nav.navbar ul.nav li.dropdown.on > a, nav.navbar.navbar-inverse ul.nav li.dropdown.on > a, nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a, nav.navbar .dropdown .megamenu-content .col-menu.on .title, nav.navbar ul.nav > li > a:hover, nav.navbar ul.nav > li.active > a:hover, nav.navbar ul.nav li.active > a, nav.navbar li.dropdown ul.dropdown-menu > li a:hover,
+nav.navbar.navbar-transparent ul.nav > li > a:hover, nav.navbar.no-background ul.nav > li > a:hover, nav.navbar ul.nav li.scroll.active > a, nav.navbar.navbar-dark ul.nav li.dropdown ul.dropdown-menu > li > a:hover, nav.navbar ul.nav li.dropdown.on > a, nav.navbar-dark ul.nav li.dropdown.on > a{
+color: #0080ff ;
+}
+
+.click-top a:hover,
+nav.navbar.navbar-transparent ul.nav > li > a:hover,
+nav.navbar.no-background ul.nav > li > a:hover,
+nav.navbar ul.nav li.scroll.active > a,
+nav.navbar.navbar-dark ul.nav li.dropdown ul.dropdown-menu > li > a:hover,
+nav.navbar ul.nav li.dropdown.on > a,
+nav.navbar-dark ul.nav li.dropdown.on > a{
+color: #0080ff !important;
+}
+
+nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
+border-top: solid 4px #0080ff!important;
+}
