@@ -103,7 +103,7 @@ def subscription(request):
 
 
 
-
+@login_required
 def package(request):
     plan = request.GET.get('sub_plan')
     fetch_membership = Membership.objects.filter(membership_type=plan).exists()
