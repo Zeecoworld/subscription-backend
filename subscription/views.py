@@ -43,6 +43,8 @@ def  privacy(request):
 
     return render(request,"privacy.html")
 
+
+
 def dashboard(request):
     user = request.user.username
     user_membership = UserMembership.objects.get(user=request.user)
