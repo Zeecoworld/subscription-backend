@@ -20,20 +20,25 @@ def login_view(request):
         username = request.POST.get('username').lower()
         password = request.POST.get('password')
         user = authenticate(request, username=username, password=password)
-        login(request, user)
-        user_membership = UserMembership.objects.get(user=request.user)
-        sub = Subscription.objects.filter(user_membership=user_membership).exists()
-        subs = Subscription.objects.filter(user_membership=user_membership).last()
-        reg = subs.check_sub()
-        if sub == True:
-            if reg == "Free":
-                return redirect('sub_void')
+        if user is not None:
+            login(request, user)
+            user_membership = UserMembership.objects.get(user=request.user)
+            sub = Subscription.objects.filter(user_membership=user_membership).exists()
+            subs = Subscription.objects.filter(user_membership=user_membership).last()
+            reg = subs.check_sub()
+            if sub == True:
+                if reg == "Free":
+                    return redirect('sub_void')
+                else:
+                    return redirect('dashboard')
             else:
-                return redirect('dashboard')
+                return redirect('need_register')
         else:
-            return redirect('need_register')
-    else:
-        return render(request,"login.html")
+            messages.error(request, "Login here..")
+            return redirect('login')
+
+    return render(request,"login.html")
+
 
 def register_view(request):
     profile_id = request.session.get('ref_profile')
