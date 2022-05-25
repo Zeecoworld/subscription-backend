@@ -34,7 +34,7 @@ def login_view(request):
             else:
                 return redirect('need_register')
         else:
-            messages.error(request, "Login here..")
+            messages.error(request, "Login details not valid")
             return redirect('login')
 
     return render(request,"login.html")
