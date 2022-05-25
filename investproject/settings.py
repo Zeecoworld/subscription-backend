@@ -42,7 +42,7 @@ SECRET_KEY = 'django-insecure-5g6%8ilntl6=a(-c%3j37o9g^i-e=y@!l1d-+%ke$5smz^nzt)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["www.mettacoin.tk","mettacoin.tk","mettacoin.herokuapp.com"]
 
 
 # Application definition
@@ -185,10 +185,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://softtv.tk',
-#     'https://www.softtv.tk'
-# ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://mettacoin.tk',
+    'https://www.mettacoin.tk'
+]
 
 
 
