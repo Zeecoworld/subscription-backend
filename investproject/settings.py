@@ -40,7 +40,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5g6%8ilntl6=a(-c%3j37o9g^i-e=y@!l1d-+%ke$5smz^nzt)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["www.mettacoin.tk","mettacoin.tk","mettacoin.herokuapp.com"]
 
