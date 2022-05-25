@@ -103,6 +103,18 @@ class PaymentScreenshot(models.Model):
 
     def __str__(self):
         return f"{self.images} - by {self.user}"
+
+
+
+class TaskResult(models.Model):
+    result = models.ImageField(null=True,blank=True)
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    date_added = models.DateField(auto_now_add=True)
+
+
+    def __str__(self):
+        return f"{self.result} - by {self.user}"
+
     
     
     

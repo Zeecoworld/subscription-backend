@@ -6,4 +6,5 @@ admin.site.register(UserMembership)
 admin.site.register(Membership)
 admin.site.register(Subscription)
 admin.site.register(PaymentScreenshot)
+admin.site.register(TaskResult)
 

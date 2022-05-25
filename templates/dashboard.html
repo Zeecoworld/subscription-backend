@@ -226,6 +226,42 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <!--Start Contact Form-->
+                <div class="contact-form">
+                    <!--Start Section Heading-->
+                    <div class="text-center">
+                        <h2>Upload your Task Result Screenshot</h2>
+                    </div>
+
+                                            <!--End Section Heading-->
+                    <form action="" method="POST" enctype="multipart/form-data">
+                         {% csrf_token %}
+                         {% for key,value in form.errors.items %} 
+                                        {% for error in value %}
+                                            <div class=" .alert-danger " role="alert">
+                                                {{error}}
+                                            </div>
+                                        {% endfor %}
+                          {% endfor %}
+                        <div class="form-group">
+                            {{form.result}}
+                            {% comment %} <input type="file" class="form-control" name="username" id="InputName" placeholder="Enter Username" required> {% endcomment %}
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-frm-btn text-center">
+                                    <button type="submit" class="cont-btn btn-block" style="width: 100%">Upload</button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         
 {% endfor %}
 {% else %}

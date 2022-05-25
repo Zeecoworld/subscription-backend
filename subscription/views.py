@@ -13,7 +13,7 @@ from .models import *
 from accounts.views import *
 from accounts.models import *   ###REFERRAL INFO
 from tasks.models import *
-from .forms import PaymentForm
+from .forms import *
 from .take_tasks import random_link,random_task 
 from django.conf import settings
 import datetime
@@ -71,7 +71,17 @@ def dashboard(request):
                Task.objects.create(subscription=subscription,youtube_task1=task1,youtube_task2=task2,youtube_task3=task3,youtube_link1=link1,youtube_link2=link2,youtube_link3=link3)
             tasks = Task.objects.filter(subscription=subscription,task_date=today)
             wallets = UserWallet.objects.filter(subscription=subscription,entered_date=today)
-        context = {"tasks":tasks,"wallets":wallets,"subs_check":subs_check,"ref_nos":ref_nos,"ref":referral_link}
+            if request.method == "POST":
+               form = PaymentForm(request.POST,request.FILES)
+               if form.is_valid():
+                    post = form.save(commit=False)
+                    post.user = request.user
+                    post.save()
+                    messages.error(request, 'Your task will be confirmed')
+                    return redirect('dashboard')
+            else:
+                form = TaskForm()
+        context = {"tasks":tasks,"wallets":wallets,"subs_check":subs_check,"ref_nos":ref_nos,"ref":referral_link,"form":form}
         return render(request,"dashboard.html",context)
 
 
