@@ -52,6 +52,8 @@ def register_view(request):
                 registered_user = User.objects.get(id=instance.id)
                 registered_profile = Referral.objects.get(user=registered_user)
                 registered_profile.recommended_by = recommended_by_ref.user
+                password = form.cleaned_data.get("password1")
+                instance.set_password(password)
                 registered_profile.save()  
                 get_membership =  Membership.objects.get(membership_type='Free')
                 inst = UserMembership.objects.create(user=instance,membership=get_membership)
