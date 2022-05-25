@@ -48,12 +48,14 @@ def register_view(request):
         if form.is_valid():
             if profile_id is not None:
                 recommended_by_ref = Referral.objects.get(id=profile_id)
+                instance = form.save(commit=False)
+                username = user.username.lower()
                 password = form.cleaned_data.get("password1")
+                instance.set_password(password) 
                 instance = form.save()
                 registered_user = User.objects.get(id=instance.id)
                 registered_profile = Referral.objects.get(user=registered_user)
                 registered_profile.recommended_by = recommended_by_ref.user
-                registered_user.set_password(password)
                 registered_profile.save()  
                 get_membership =  Membership.objects.get(membership_type='Free')
                 inst = UserMembership.objects.create(user=instance,membership=get_membership)
