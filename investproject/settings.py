@@ -98,29 +98,29 @@ LOGOUT_REDIRECT_URL = 'index'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE':'django.db.backends.postgresql',
-
-#             'NAME': "d7qpjv9q7f6vff",
-                                            
-#             'USER': "vjzpdejoujiqmd",
-
-#             'PASSWORD': "4bfa87d3058abeb1c3b4889a3e192defd12dd747bd2da8874e5bd09a2435b8e3",
-
-#             'HOST' : "ec2-54-157-113-118.compute-1.amazonaws.com",
-
-#             'PORT' : 5432,
-                                
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE':'django.db.backends.postgresql',
+
+            'NAME': "daia1414rn3i5c",
+                                            
+            'USER': "vunmkfvcztvnaj",
+
+            'PASSWORD': "6f66a81aac14b2207631e793fd4a279acaadd1bab0a1e539535702f51090b4b8",
+
+            'HOST' : "ec2-34-231-177-125.compute-1.amazonaws.com",
+
+            'PORT' : 5432,
+                                
+    }
+}
 
 
 # Password validation
