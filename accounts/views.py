@@ -66,8 +66,7 @@ def register_view(request):
                 return redirect('sub_void')
                 
                    
-        else:
-           messages.error(request, 'An error occurred during registration')
+        
 
     return render(request, 'register.html', {'form': form})
 
