@@ -50,7 +50,7 @@ def register_view(request):
                 recommended_by_ref = Referral.objects.get(id=profile_id)
                 password = form.cleaned_data.get("password1")
                 instance.set_password(password)
-                instance = form.save()
+                instance.save()
                 registered_user = User.objects.get(id=instance.id)
                 registered_profile = Referral.objects.get(user=registered_user)
                 registered_profile.recommended_by = recommended_by_ref.user
