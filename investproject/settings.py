@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
 from pathlib import Path
-# import django_heroku
+import django_heroku
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
@@ -170,9 +170,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-# MEDIA_URL = "/media/"
-# MEDIA_ROOT = os.path.join(BASE_DIR , "media")
-# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR , "media")
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = os.path.join(BASE_DIR , "staticfiles")
@@ -181,9 +181,11 @@ STATIC_ROOT = os.path.join(BASE_DIR , "staticfiles")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
+CLOUDINARY_STORAGE = {  
+    'CLOUD_NAME': 'imvde124',
+    'API_KEY': '264615288339738',
+    'API_SECRET':'6OLGP3cDDYm6t35hOAcpCROYueo',
+}
 
 CSRF_TRUSTED_ORIGINS = [
     'https://mettacoin.tk',
@@ -191,4 +193,4 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 
-
+django_heroku.settings(locals())
