@@ -49,8 +49,9 @@ def register_view(request):
             if profile_id is not None:
                 recommended_by_ref = Referral.objects.get(id=profile_id)
                 instance = form.save(commit=False)
-                username = user.username.lower()
+                username = form.cleaned_data.get("username")
                 password = form.cleaned_data.get("password1")
+                username = username.lower()
                 instance.set_password(password) 
                 instance = form.save()
                 registered_user = User.objects.get(id=instance.id)
