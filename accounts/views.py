@@ -28,7 +28,7 @@ def login_view(request):
             reg = subs.check_sub()
             if sub == True:
                 if reg == "Free":
-                    return redirect('sub_void')
+                    return redirect('free_sub')
                 else:
                     return redirect('dashboard')
             else:
@@ -62,7 +62,7 @@ def register_view(request):
                 inst = UserMembership.objects.create(user=instance,membership=get_membership)
                 authenticate(request, username=instance.username, password=instance.password)
                 login(request, instance)
-                return redirect('sub_void')
+                return redirect('free_sub')
             else:
                 user = form.save(commit=False)
                 username = user.username.lower()
@@ -73,7 +73,7 @@ def register_view(request):
                 inst = UserMembership.objects.create(user=user,membership=get_membership)
                 authenticate(request, username=username, password=password)
                 login(request, user)
-                return redirect('sub_void')
+                return redirect('free_sub')
                 
                    
         

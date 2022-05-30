@@ -11,6 +11,7 @@ urlpatterns = [
     path('need_register/', views.need_register, name="need_register"),
     path('dashboard/', views.dashboard, name="dashboard"),
     path('sub-package/', views.subscription, name="subscription"),
+    path('free_sub/', views.free_sub , name="free_sub"),
     path('package/', views.package , name="package"),    ### INIT PAYSTACK PAYMENT BUTTON???
     # path('payment/', views.callback_url , name="payment")   ### CALL-BACK URL TO PAYSTACK SUBMISSION????
 
