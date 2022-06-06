@@ -10,7 +10,7 @@ class UserRegistrationForm(UserCreationForm):
         self.fields["first_name"].widget.attrs.update({"class":"form-control","name":"name","placeholder":"Enter First Name"})
         self.fields["last_name"].widget.attrs.update({"class":"form-control","name":"name","placeholder":"Enter Last Name"})
         self.fields["email"].widget.attrs.update({"class":"form-control","name":"email","placeholder":"Enter Your E-mail"})
-        self.fields["wallet_address"].widget.attrs.update({"class":"form-control","name":"name","placeholder":"Enter Your USDT(TRC20) Public Wallet Address"})
+        # self.fields["wallet_address"].widget.attrs.update({"class":"form-control","name":"name","placeholder":"Enter Your USDT(TRC20) Public Wallet Address"})
         self.fields["password1"].widget.attrs.update({"class":"form-control","name":"password","placeholder":"Enter Your Password"})
         self.fields["password2"].widget.attrs.update({"class":"form-control","name":"password_confirmation","id":"InputRetypepassword","placeholder":"Re-type Password"})
     class Meta:
@@ -19,7 +19,6 @@ class UserRegistrationForm(UserCreationForm):
                   "first_name", 
                   "last_name",
                   "email",
-                  "wallet_address", 
                   "password1", 
                   "password2" )
 
@@ -29,7 +28,7 @@ class UserRegistrationForm(UserCreationForm):
         user.first_name = self.cleaned_data['first_name']
         user.last_name = self.cleaned_data['last_name']
         user.email = self.cleaned_data['email']
-        user.phone_number = self.cleaned_data['wallet_address']
+        # user.phone_number = self.cleaned_data['wallet_address']
         if commit:
             user.save()
         return user

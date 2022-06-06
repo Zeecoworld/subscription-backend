@@ -16,7 +16,7 @@ class User(AbstractUser):
     first_name = models.CharField(max_length=256, blank=False)
     last_name = models.CharField(max_length=256, blank=False)
     email = models.EmailField(unique=True, blank=False)
-    wallet_address = models.CharField(max_length=256, unique=True, blank=False)
+    # wallet_address = models.CharField(max_length=256, unique=True, blank=False)
     # bank_name = models.CharField(max_length=256, unique=True, blank=False)
     # account_name = models.CharField(max_length=256, unique=True, blank=False)
     # account_number = models.PositiveIntegerField(unique=True, blank=False)
