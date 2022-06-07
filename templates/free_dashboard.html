@@ -247,7 +247,7 @@
                              {% csrf_token %}
                              {% for key,value in form.errors.items %} 
                                             {% for error in value %}
-                                                <div class=" .alert-danger " role="alert">
+                                                <div class=".alert-danger " role="alert">
                                                     {{error}}
                                                 </div>
                                             {% endfor %}
