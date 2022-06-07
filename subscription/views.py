@@ -72,7 +72,7 @@ def dashboard(request):
             tasks = Task.objects.filter(subscription=subscription,task_date=today)
             wallets = UserWallet.objects.filter(subscription=subscription,entered_date=today)
             if request.method == "POST":
-               form = PaymentForm(request.POST,request.FILES)
+               form = TaskForm(request.POST,request.FILES)
                if form.is_valid():
                     post = form.save(commit=False)
                     post.user = request.user
@@ -110,7 +110,7 @@ def free_sub(request):
             tasks = Task.objects.filter(subscription=subscription,task_date=today)
             wallets = UserWallet.objects.filter(subscription=subscription,entered_date=today)
             if request.method == "POST":
-               form = PaymentForm(request.POST,request.FILES)
+               form = TaskForm(request.POST,request.FILES)
                if form.is_valid():
                     post = form.save(commit=False)
                     post.user = request.user
