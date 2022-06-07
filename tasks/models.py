@@ -10,7 +10,7 @@ from accounts.models import *
 
 class UserWallet(models.Model):
     subscription = models.ForeignKey(Subscription, related_name='wallet',on_delete=models.CASCADE)
-    amount = models.IntegerField(default=0)
+    amount = models.DecimalField(max_digits=6, decimal_places=2)
     withdrawal_amount = models.IntegerField(default=0)
     entered_date = models.DateField(auto_now=True)
 
